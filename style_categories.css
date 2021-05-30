@@ -1,0 +1,136 @@
+body{
+  background: #ffe877;
+  
+}
+.box {
+  transition: box-shadow .3s;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  
+  border: none;
+  background: #fff;
+  float: left;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  
+}
+.box:hover {
+  /*box-shadow: 5px 10px green;*/
+  box-shadow: 0 0 11px rgba(33,33,33,.7);
+}
+
+.box_in_box{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+ 
+  border: 1px light gray;
+  background: #fff;
+  float: left;
+  
+  
+}
+
+.image{
+	width:120px;
+	height:120px;
+	margin-top:15px;
+	margin-left: 15px;
+	
+}
+
+
+.banner{
+
+  background:"theme.png";
+  width: 600px;
+  height:150px;
+  border: none;
+  padding: 50px;
+  margin-left: 400px ;
+  text-align:center;
+  padding-bottom:15;
+
+}
+
+
+
+
+
+
+
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.image:hover {
+  opacity: .3;
+}
+
+
+
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+ 
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon-bar {
+  width: 90px;
+  background-color: #fff;
+  float:right;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: grey;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #f48200;
+}
+
+.active {
+  background-color: #fde88d;
+}
